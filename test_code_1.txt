@@ -1,0 +1,12 @@
+int x = 23;
+int y = 54;
+int z;
+string c ="Compiler Construction";
+z = x + y;
+
+if (z > 43) {
+    print("Result is greater than 43");
+} else {
+    print("Result is 43 or less");
+    print(c);
+}

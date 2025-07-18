@@ -1,0 +1,18 @@
+int x = 23;
+int y = 54;
+int z;
+int w = 3 + 5;
+int unused;
+z = x * 4;
+int i = 0;
+int sum = 0;
+int loop_inv = x + y;
+int temp = x + y;
+if (i < 5) {
+    sum = sum + loop_inv;
+    i = i + 1;
+}
+if (z > 40) {
+    print("Result is greater than 40");
+    print(temp);
+}
