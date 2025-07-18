@@ -8,12 +8,14 @@ from IR import generate_ir
 from OC import optimize_ir
 
 if __name__ == "__main__":
-    base_dir = r"C:\Users\abdul\OneDrive\Desktop\CC"
+
+    #add your directory here where your project is placed
+    # base_dir = r"C:\Users\abdul\OneDrive\Desktop\CC"
     input_file = os.path.join(base_dir, "test_code.txt")
     ir_file = os.path.join(base_dir, "ir.txt")
     optimized_ir_file = os.path.join(base_dir, "optimized_ir.txt")
     ast_dot_file = os.path.join(base_dir, "ast.dot")
-
+  
     try:
         print(f"Reading input from {input_file}")
         with open(input_file, "r") as file:
